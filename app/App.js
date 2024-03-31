@@ -3,12 +3,13 @@ import React, { useEffect, useState } from "react";
 
 import { NavigationContainer, useNavigation } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-
+import Signup from './screens/Signup'
 import {
   CartScreen,
   HomeScreen,
   OnBoardingScreen,
   ProductScreen,
+  
 } from "./screens";
 import { Provider } from "react-redux";
 
@@ -43,6 +44,7 @@ const App = () => {
           <Stack.Screen name="Home" component={HomeScreen} />
           <Stack.Screen name="ProductScreen" component={ProductScreen} />
           <Stack.Screen name="CartScreen" component={CartScreen} />
+          <Stack.Screen name="SignUp" component={Signup} />
         </Stack.Navigator>
       </Provider>
 

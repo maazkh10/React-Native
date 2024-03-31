@@ -5,9 +5,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'beauty-app-server',
+  title: 'E-com website ',
 
-  projectId: 'dehvg87s',
+  projectId: 'v55a872y',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],

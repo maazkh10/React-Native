@@ -2,9 +2,9 @@ import { createClient } from "@sanity/client";
 import { fetchQuery } from "./utils/supports";
 
 const client = createClient({
-  projectId: "vwgltfe2",
+  projectId: "v55a872y",
   dataset: "production",
-  apiVersion: "2023-07-04",
+  apiVersion: "2023-10-29",
   useCdn: true,
 });
 
